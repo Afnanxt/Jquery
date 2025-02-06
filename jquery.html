@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>مثال jQuery</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+                $("p").hide();  // إخفاء الفقرة عند النقر على الزر
+            });
+        });
+    </script>
+</head>
+<body>
+
+<button>اضغط هنا لإخفاء الفقرة</button>
+<p>هذه فقرة ستختفي عند الضغط على الزر.</p>
+
+</body>
+</html>
